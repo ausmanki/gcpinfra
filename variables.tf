@@ -3,7 +3,7 @@ variable "project_id" {
 }
 
 variable "vm_name" {
-  default = "my-vm"
+  default = "my-vm1"
 }
 
 variable "machine_type" {
