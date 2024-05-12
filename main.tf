@@ -1,6 +1,7 @@
 provider "google" {
   project = var.project_id
   region  = "us-central1" # Region is required for some resources
+  zone         = var.zone
 }
 
 resource "google_compute_instance" "vm_instance" {
